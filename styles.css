@@ -1,0 +1,128 @@
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    min-width: 700px;
+}
+
+.box {
+    margin: 20px;
+}
+
+a {
+    color: #494949 !important;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #ffffff;
+    padding: 18px;
+    border: 4px solid #494949 !important;
+    border-radius: 6px;
+    text-decoration: none;
+}
+#avatar {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+#text {
+    display: block;
+    text-align: center;
+    font: 18px Arial;
+    padding-bottom: 10px;
+}
+
+#hangman-drawing {
+    height: 90px;
+    width: 90px;
+    opacity: 0;
+    transition: opacity .2s; 
+    display: block;
+    margin-top: 25px;
+    margin-left:22px;
+}
+
+#breakout-drawing{
+    height: 75px;
+    width: 90px; 
+    opacity: 0;
+    transition: opacity .2s;
+    display: block;
+    margin-top: 39px;
+    margin-left: 14px;
+}
+
+#flappy-drawing {
+    height: 90px;
+    width: 90px; 
+    opacity: 0;
+    transition: opacity .2s;
+    display: block;
+    margin-top: 25px;
+    margin-left: 19px;
+}
+
+#snake-link {  
+    padding: 18px 34px 18px 34px;  
+}
+
+#snake-drawing {
+    height: 90px;
+    width: 90px; 
+    opacity: 0;
+    transition: opacity .2s;
+    display: block;
+    margin-top: 38px;
+    margin-left: 17px;
+}
+
+#flappy-link:hover {
+    color: #ffffff !important;
+    background: #1FE34E;
+    border-color: #1FE34E !important;
+    transition: all 0.4s ease 0s ;
+}
+
+#breakout-link:hover {
+    color: #ffffff !important;
+    background: #21AFE8;
+    border-color: #21AFE8 !important;
+    transition: all 0.4s ease 0s ;
+}
+
+#hangman-link:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s ;
+}
+
+#snake-link:hover {
+    color: #ffffff !important;
+    background: #BB42D8;
+    border-color: #BB42D8 !important;
+    transition: all 0.4s ease 0s ;
+}
+
+#breakout-link:hover + #breakout-drawing {
+    opacity: 1;
+}
+
+#hangman-link:hover + #hangman-drawing{
+    opacity: 1;
+}
+
+#flappy-link:hover + #flappy-drawing {
+    opacity: 1;
+}
+
+#snake-link:hover + #snake-drawing {
+    opacity: 1;
+}
+
+
+
+
+
+
